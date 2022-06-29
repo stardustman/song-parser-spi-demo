@@ -22,7 +22,8 @@ public class ParserManager {
         Iterator<Parser> driversIterator = loadedParsers.iterator();
         try{
             while(driversIterator.hasNext()) {
-                driversIterator.next();
+                Parser parser = driversIterator.next();
+                System.out.println(parser.toString());
             }
         } catch(Throwable t) {
             // Do nothing

@@ -21,10 +21,10 @@ public class FlacParser implements Parser {
 
     @Override
     public Song parse(byte[] data) throws Exception {
-        if (!isDataCompatible(data)){
-            return new Song("Evan Call","flac","《镰仓殿的13人》",132L);
+        if (!isDataCompatible(data)) {
+            throw new Exception("data format is wrong.");
         }
-        return null;
+        return new Song("Evan Call","flac","《镰仓殿的13人》",132L);
     }
 
     private boolean isDataCompatible(byte[] data){
