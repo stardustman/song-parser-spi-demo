@@ -24,6 +24,9 @@
             <groupId>com.chenshuyi.demo</groupId>
             <artifactId>song-parser</artifactId>
             <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>/Users/stardust/git-repos/song-parser-spi-demo/song-parser/target/song-parser-1.0.0.jar
+            </systemPath>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

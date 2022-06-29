@@ -9,6 +9,7 @@ public class App {
         testMp3Parser();    //success
         testMp4Parser();    //success
         testRmvbParser();
+        testFlacParser();
     }
 
     /**
@@ -34,6 +35,14 @@ public class App {
 
     public static void testMp3Parser() {
         Song song = ParserManager.getSong(mockSongData("MP3"));
+        System.out.println("------------------------");
+        System.out.println("Name:" + song.getName());
+        System.out.println("Author:" + song.getAuthor());
+        System.out.println("Time:" + song.getTime());
+        System.out.println("Format:" + song.getFormat());
+    }
+    public static void testFlacParser() {
+        Song song = ParserManager.getSong(mockSongData("FLAC"));
         System.out.println("------------------------");
         System.out.println("Name:" + song.getName());
         System.out.println("Author:" + song.getAuthor());

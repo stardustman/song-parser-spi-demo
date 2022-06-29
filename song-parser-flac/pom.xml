@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>song-parser-spi-demo</artifactId>
+        <groupId>com.chenshuyi.demo</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>song-parser-flac</artifactId>
+    <groupId>io.github.stardustman</groupId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.chenshuyi.demo</groupId>
+            <artifactId>song-parser</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>/Users/stardust/git-repos/song-parser-spi-demo/song-parser/target/song-parser-1.0.0.jar
+            </systemPath>
+
+
+        </dependency>
+    </dependencies>
+
+
+</project>

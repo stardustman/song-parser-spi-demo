@@ -13,6 +13,7 @@
         <module>song-parser-mp3</module>
         <module>song-parser-demo</module>
         <module>song-parser-mp4</module>
+        <module>song-parser-flac</module>
     </modules>
 
     <name>song-parser-spi-demo</name>
