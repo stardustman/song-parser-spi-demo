@@ -1,6 +1,6 @@
 # Song Parser Demo of Java SPI
 
-song-parser-spi-demo is a simple example of Java SPI usage. It can reinfoce your understanding of Java SPI mechanism.
+song-parser-spi-demo is a simple example of Java SPI usage. It can reinforce your understanding of Java SPI mechanism.
 
 ## Background
 
@@ -14,7 +14,7 @@ public class ParseUtil{
 }
 ```
 
-people who use the framwork write the code below to get the song infomation:
+people who use the framwork write the code below to get the song information:
 
 ```
 Song song = ParseUtil.parseMp3Song(data);
@@ -81,9 +81,9 @@ Let's go inside the Song Parser Framework and see how it works.
 
 This project contains four separate modules which can divide into three main part.
 
-* "song-parser" module, define the unified interaface that every parser will use.
+* "song-parser" module, define the unified interface that every parser will use.
 * "song-parser-mp3" module, define the mp3 parser.
-* "song-parser-demo" module, provide a quicks start example, you can just run the "com.chenshuyi.demo.App.main" and result comes.
+* "song-parser-demo" module, provide a quick start example, you can just run the "com.chenshuyi.demo.App.main" and result comes.
 
 ## how to add a new Parser
 
@@ -191,4 +191,4 @@ Format:rmvb
 
 for more detail, you can dive into the code and thanks for watching.
 
-if it helps you understand the Java SPI, please give me a start, thank you.
+if it helps you understand the Java SPI, please give me a star, thank you.
